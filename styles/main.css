@@ -1,0 +1,532 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+  }
+.container{
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fefefe;
+    z-index: 111;
+}
+
+.logo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3D535F;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a{
+    font-size: 20px;
+    color: #414344;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.navItems li:hover a, .links a:hover{
+    color: #c25f2a;
+}
+
+.links a, .links a i{
+    font-size: 20px;
+    color: #414344;
+    margin: 25px 10px;
+}
+
+.links a i:hover{
+    color: #c25f2a;
+}
+
+.intro{
+    width: 100%;
+    height: 1000px;
+    background-color: #fefefe;
+    color: #414344;
+}
+
+
+.intro #trigo1{
+    rotate: 230deg;
+    width: 600px;
+    filter: saturate(175%);
+    position: absolute;
+    top: -250px;
+    left: 1600px;
+    animation: right-to-left 1s ease-out forwards;
+        z-index: 2;
+}
+@keyframes right-to-left {
+    from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+.intro #cesta{
+    width: 1000px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    opacity: 0; /* Define a opacidade do elemento para 0 */
+    animation: fade-in-animation 2s ease-out forwards; /* Define a animação */
+    z-index: 2;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0; /* Define a opacidade do elemento no início da animação */
+    }
+    to {
+        opacity: 1; /* Define a opacidade do elemento no final da animação */
+    }
+}
+
+.intro h1{
+    rotate: 270deg;
+    font-size: 200px;
+    position: absolute;
+    left: -200px;
+    top: 350px;
+    animation: left-to-right 1.5s ease-out forwards;
+}
+@keyframes left-to-right {
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+}
+.intro #fatia{
+    width: 150px;
+    position: absolute;
+    top: 800px;
+    left: 75px;
+    filter: saturate(150%) brightness(120%);
+    animation: fade-in-animation 2s ease-out forwards; /* Define a animação */
+}
+.intro p{
+    text-justify: distribute-all-lines;
+    text-align: justify;
+    position: absolute;
+    left: 1200px;
+    top: 425px;
+    font-weight: bold;
+}
+.intro .btn{
+    background-color: #c25f2a;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 850px;
+    top: 850px;
+    color: #fefefe;
+    z-index: 2;
+}
+.intro .btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateX(-2px) translateY(-2px);
+}
+.intro .circulo1{
+    position: absolute;
+    top: -100px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    border: 10px solid #414344;
+    opacity: 0.1;
+    z-index: 1;
+    animation: left-to-right 1.5s ease-out forwards;
+  
+}
+.intro .circulo2{
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    border-radius: 50%;
+    border: 10px solid #414344;
+    opacity: 0.1;
+    z-index: 1; 
+    left: 1200px;
+    top: -120px;
+    animation: left-to-right 1.5s ease-out forwards;
+       
+}
+.intro .circulo3{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid #414344;
+    opacity: 0.1;
+    z-index: 1;
+    animation: right-to-left 1s ease-out forwards;
+  
+}
+
+.aboutUs{
+    width: 100%;
+    height: 400px;
+    color: #414344;
+}
+
+.aboutUs h1{
+    font-size: 75px;
+    color: #c25f2a;
+    font-weight: bold;
+    position: absolute;
+    left: 830px;
+    top: 1000px;
+}
+.aboutUs p{
+    position: absolute;
+    left: 750px;
+    top: 1100px;
+    text-align: center;
+
+}
+.aboutUs .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 850px;
+    top: 1250px;
+    color: #fefefe;
+}
+.tri{
+    width: 100%;
+    height: 1000px;
+    color: #414344;
+}
+.tri #trigo{
+    rotate: 90deg;
+    width: 900px;
+    position: absolute;
+    left: -400px;
+    top: 900px;
+    filter: saturate(150%);
+    animation: left-to-right2 1.5s ease-out forwards;
+}
+
+@keyframes left-to-right2 {
+    from {
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+}
+.tri .bola1 .circulo1{
+    position: absolute;
+    left: 600px;
+    top: 1400px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 500px 0);
+}
+.tri .bola1 #cesta{
+    position: absolute;
+    left: 700px;
+    width: 550px;
+}
+.tri .bola1 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 1400px;
+    top: 1550px;
+}
+.tri .bola1 p{
+    position: absolute;
+    left: 1400px;
+    top: 1650px;
+}
+.tri .bola2 .circulo2{
+    position: absolute;
+    left: 300px;
+    top: 1850px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 500px 0 0);
+}
+.tri .bola2 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 200px;
+    top: 1700px;
+}
+.tri .bola2 p{
+    position: absolute;
+    left: 200px;
+    top: 1800px;
+}
+.tri .bola2 #pao1{
+    position: absolute;
+    left: 300px;
+    top: 2050px;
+}
+.tri .bola3 .circulo3{
+    position: absolute;
+    left: 1000px;
+    top: 1800px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 0 500px);
+}
+.tri .bola3 h1{
+    font-size: 75px;
+    position: absolute;
+    left: 850px;
+    top: 2550px;
+}
+.tri .bola3 p{
+    position: absolute;
+    left: 850px;
+    top: 2650px;
+}
+.tri .bola3 #cesta{
+    position: absolute;
+    width: 550px;
+    left: 1100px;
+    top: 1900px;
+}
+.tri #pao2{
+    position: absolute;
+    width: 550px;
+    left: 1400px;
+    top: 2500px;
+    filter: saturate(150%);
+    transform: scaleX(-1);
+}
+.how{
+    color: #414344;
+    width: 100%;
+    height: 1000px;
+    background-color: #fefefe;
+}
+.how h1{
+    font-size: 75px;
+    position: absolute;
+    left: 100px;
+    top: 3050px;
+}
+.how p{
+    position: absolute;
+    left: 100px;
+    top: 3150px;
+}
+.how .btn{
+    background-color: #c25f2a;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 110px;
+    top: 3300px;
+    color: #fefefe;
+}
+.how #sonho{
+    width: 150px;
+    position: absolute;
+    top: 3300px;
+    left: 525px;
+    z-index: 3;
+}
+.how .ingredientes{
+    position: absolute;
+    top: 2900px;
+    left:800px;
+    width: 1100px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.how .ingredientes img{
+    width: 200px;
+}
+.how .ingredientes h2{
+    font-size: 50px;
+}
+.how .ingredientes h3{
+    font-weight: lighter;
+    text-align: center;
+}
+.how .circulo1{
+    position: absolute;
+    left: -100px;
+    top: 2700px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border: 10px solid #414344;
+    opacity: 0.1;
+    z-index: 1;
+    animation: left-to-right 1.5s ease-out forwards;
+}
+.padeiro1{
+    width: 100%;
+}
+.padeiro1 .circulo{
+    position: absolute;
+    left: 200px;
+    top: 3850px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 500px 0 0);
+}
+.padeiro1 #foto{
+    position: absolute;
+    left: 400px;
+    top: 3900px;
+    width: 350px;
+    border-radius: 0 0 100px 100px;
+}
+.padeiro1 h1{
+    position: absolute;
+    left: 900px;
+    top: 4000px;
+    font-size: 75px;
+}
+.padeiro1 p{
+    position: absolute;
+    left: 900px;
+    top: 4100px;
+}
+.padeiro1 .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    top: 4250px;
+    color: #fefefe;
+}
+.padeiro1 #trigo3{
+    position: absolute;
+    rotate: 270deg;
+    left: 1600px;
+    top: 3700px;
+    width: 500px;
+}
+.padeiro2{
+    width: 100%;
+}
+.padeiro2 .circulo{
+    position: absolute;
+    left: 1000px;
+    top: 4650px;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    border: 15px solid #414344;
+    clip-path: inset(0 0 0 500px);
+}
+.padeiro2 #foto{
+    position: absolute;
+    left: 1200px;
+    top: 4700px;
+    width: 350px;
+    border-radius: 0 0 100px 100px;
+}
+.padeiro2 h1{
+    position: absolute;
+    left: 300px;
+    top: 4800px;
+    font-size: 75px;
+}
+.padeiro2 p{
+    position: absolute;
+    left: 300px;
+    top: 4925px;
+}
+.padeiro2 .btn{
+    background-color: #414344;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 5100px;
+    color: #fefefe;
+}
+
+
+/*Animação*/
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
