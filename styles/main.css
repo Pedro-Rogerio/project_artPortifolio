@@ -12,15 +12,19 @@ body {
     width: 100%;
 }
 
-
 nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 80px;
-    line-height: 80px;
+    height: 200px;
+    line-height: 200px;
     background-color: #fefefe;
     z-index: 111;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3D535F;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .logo{
@@ -36,14 +40,14 @@ nav{
 .cont2{
     position: absolute;
     left: 50%;
-    margin-left: -35rem;
+    margin-left: -30rem;
 }
 
 .carrossel{
     display: flex;
     position: relative;
-    width: 70rem;
-    height: 35rem;
+    width: 60rem;
+    height: 30rem;
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
@@ -56,4 +60,107 @@ nav{
     flex-shrink: 0;
     object-fit: cover;
     scroll-behavior: smooth;
+}
+
+
+.cont3{
+    position: relative;
+    top: 35rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 10rem;
+
+}
+.cont3 h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.cont3 p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#item1{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item1 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#item2{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item2 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#item3{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item3 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#item4{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item4 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#item5{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item5 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+#item6{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-bottom: 1rem;
+}
+
+#item6 img{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    object-fit: cover;
 }
