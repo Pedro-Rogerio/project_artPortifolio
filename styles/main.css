@@ -8,10 +8,12 @@
 body {
     overflow-x: hidden;
   }
+
 .container{
     width: 100%;
 }
 
+/* DIV 1- BARRA DE NAVEGAÇÃO*/
 nav{
     display: flex;
     width: 100%;
@@ -37,6 +39,7 @@ nav{
 
 }
 
+/* DIV 2- CARROSSEL*/
 .cont2{
     position: absolute;
     left: 50%;
@@ -62,6 +65,7 @@ nav{
     scroll-behavior: smooth;
 }
 
+/* DIV 3- EXEMPLOS*/
 
 .cont3{
     position: relative;
@@ -80,12 +84,18 @@ nav{
     font-size: 10px;
     font-weight: 400;
 }
+.cont3 .imgcontainer{
+    width: 20rem;
+    height: 30rem;
+    overflow: hidden;
+}
 
 #item1{
     display: flex;
     flex-direction: column;
     padding-inline: 2rem;
     padding-bottom: 1rem;
+    overflow: hidden;
 }
 
 #item1 img{
@@ -93,6 +103,13 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item1 img:hover{
+    -webkit-transform: scale(1.5) rotate(-5deg);
+    transform: scale(1.5) rotate(-5deg);
+
 }
 
 #item2{
@@ -107,6 +124,12 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item2 img:hover{
+    -webkit-transform: scale(1.5) rotate(5deg);
+    transform: scale(1.5) rotate(5deg);
 }
 
 #item3{
@@ -121,6 +144,13 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item3 img:hover{
+    -webkit-transform: scale(1.5) rotate(-5deg);
+    transform: scale(1.5) rotate(-5deg);
+
 }
 
 #item4{
@@ -135,6 +165,13 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item4 img:hover{
+    -webkit-transform: scale(1.5) rotate(5deg);
+    transform: scale(1.5) rotate(5deg);
+
 }
 
 #item5{
@@ -149,6 +186,13 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item5 img:hover{
+    -webkit-transform: scale(1.5) rotate(-5deg);
+    transform: scale(1.5) rotate(-5deg);
+
 }
 
 #item6{
@@ -163,4 +207,11 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+#item6 img:hover{
+    -webkit-transform: scale(1.5) rotate(5deg);
+    transform: scale(1.5) rotate(5deg);
+
 }
