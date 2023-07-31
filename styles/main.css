@@ -215,3 +215,63 @@ nav{
     transform: scale(1.5) rotate(5deg);
 
 }
+
+/* DIV 4- INFINITE SCROLLING TEXT*/
+  
+  .cont4 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40rem;
+    overflow: hidden;
+  }
+  
+  .scroll {
+    white-space: nowrap;
+    margin: 0 5rem;
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .scroll .LeftToRight p {
+    font-size: 7rem;
+    color: rgba(99, 99, 99, 0.24);
+    margin-bottom: 2rem;
+    line-height: 1rem;
+  }
+  .scroll .RightToLeft p {
+    font-size: 5rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 5rem;
+  }
+  
+  .RightToLeft {
+    animation: RightToLeft 20s infinite linear;
+  }
+  
+  @keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .LeftToRight {
+    animation: LeftToRight 18s infinite linear;
+  }
+  
+  @keyframes  LeftToRight {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
