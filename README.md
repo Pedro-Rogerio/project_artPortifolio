@@ -69,15 +69,15 @@ This project is under license (MIT) - see the [LICENSE.md](https://github.com/Pe
 
 **Slider Revolutionr**
 
-*I would like to express my sincerest gratitude for posting the graphic design portfolio image that served as a tremendous inspiration in creating a web page. Discovering this image on Slider Revolution was a delightful experience, as it showcased an extraordinary level of aesthetic quality, creativity, and originality. Analyzing it allowed me to extract countless ideas and concepts that undeniably enriched my artistic vision and added a unique touch to my work.
+* I would like to express my sincerest gratitude for posting the graphic design portfolio image that served as a tremendous inspiration in creating a web page. Discovering this image on Slider Revolution was a delightful experience, as it showcased an extraordinary level of aesthetic quality, creativity, and originality. Analyzing it allowed me to extract countless ideas and concepts that undeniably enriched my artistic vision and added a unique touch to my work.
 
-*This indirect collaboration between our projects exemplifies the powerful creative connection that the internet and sharing platforms offer. Through the online community, we find inspiration and encouragement for our own creations, fostering mutual growth in our endeavors.
+* This indirect collaboration between our projects exemplifies the powerful creative connection that the internet and sharing platforms offer. Through the online community, we find inspiration and encouragement for our own creations, fostering mutual growth in our endeavors.
 
-*I want to emphasize the significance of Slider Revolution's role in disseminating relevant and high-quality content for the designer and developer community. Your dedication to sharing valuable resources is vital to the advancement of the industry and the constant evolution of our projects.
+* I want to emphasize the significance of Slider Revolution's role in disseminating relevant and high-quality content for the designer and developer community. Your dedication to sharing valuable resources is vital to the advancement of the industry and the constant evolution of our projects.
 
-*Once again, thank you for providing this enriching experience. I firmly believe that creativity thrives when we learn from each other, and in this regard, you have played a crucial part in my development as a graphic designer and web developer.
+* Once again, thank you for providing this enriching experience. I firmly believe that creativity thrives when we learn from each other, and in this regard, you have played a crucial part in my development as a graphic designer and web developer.
 
-*I hope this message of gratitude reaches the entire Slider Revolution team and conveys the immense appreciation I feel. I will continue to follow your work with admiration and am always available to contribute and share my own creative journey.
+* I hope this message of gratitude reaches the entire Slider Revolution team and conveys the immense appreciation I feel. I will continue to follow your work with admiration and am always available to contribute and share my own creative journey.
 
 **To Pedro Cisdelli**
 
