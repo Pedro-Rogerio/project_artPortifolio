@@ -11,6 +11,8 @@ body {
 
 .container{
     width: 100%;
+    position: relative;
+    background-color: #f5f5fa;
 }
 
 /* DIV 1- BARRA DE NAVEGAÇÃO*/
@@ -18,11 +20,13 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 200px;
-    line-height: 200px;
-    background-color: #fefefe;
+    height: 20rem;
+    line-height: 20rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+    background-color: #f5f5fa;
     z-index: 111;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 800;
     color: #3D535F;
     letter-spacing: 1px;
@@ -41,7 +45,7 @@ nav{
 
 /* DIV 2- CARROSSEL*/
 .cont2{
-    position: absolute;
+    position: relative;
     left: 50%;
     margin-left: -30rem;
 }
@@ -69,7 +73,7 @@ nav{
 
 .cont3{
     position: relative;
-    top: 35rem;
+    top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,6 +83,7 @@ nav{
 .cont3 h1{
     font-size: 2rem;
     font-weight: 800;
+    color:#0c0c0f;
 }
 .cont3 p{
     font-size: 1rem;
@@ -186,6 +191,7 @@ nav{
     width: 20rem;
     height: 30rem;
     object-fit: cover;
+    object-position: 0 0;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
 }
@@ -222,7 +228,7 @@ nav{
     display: flex;
     align-items: center;
     position: relative;
-    top: 40rem;
+    top: 5rem;
     overflow: hidden;
   }
   
@@ -244,7 +250,7 @@ nav{
   }
   .scroll .RightToLeft p {
     font-size: 5rem;
-    color: black;
+    color: #0c0c0f;
     font-weight: bold;
     margin-bottom: 2rem;
     line-height: 5rem;
@@ -281,39 +287,76 @@ nav{
   .cont5{
     display: flex;
     position: relative;
-    top: 50rem;
+    top: 10rem;
     margin-left: 10rem;
     margin-right: 10rem;
     padding-bottom: 10rem;
   }
   .contfoto{
+    position: relative;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
   }
+
   .contfoto img{
+    position: relative;
     height: 10rem;
-    width: 10rem;
+    width: 9rem;
     border-radius: 50%;
-    filter: brightness(150%);
+    filter: brightness(125%);
   }
   .contfoto p{
+    position: relative;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
+    color: #0c0c0f;
   }
 
   .conttexto{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
   .conttexto p{
-    font-size: 1rem;
+    position: relative;
+    font-size: 1.3rem;
     font-weight: 400;
     margin-inline: 2rem;
     text-align: justify;
+    color: #0c0c0f;
   }
 
   /* DIV 6- Rodapé*/
+
+  .cont6{
+    display: flex;
+    position: relative;
+    background-color: #2700a9;
+    top:10rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #f5f5fa;
+
+  }
+
+  .cont6 .lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+  }
+  .cont6 img{
+    height: 25rem;
+    clip-path: 10rem;
+    cursor: pointer;
+  }
+  .cont6 p {
+    cursor: pointer;
+  }
