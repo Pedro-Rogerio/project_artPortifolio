@@ -1,6 +1,6 @@
-## Bakey Model
+## Art Portifólio
 
--This project is a demonstration of my front-end development skills, creating an example website for a bakery. The main goal was to showcase mouse scroll animations, interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
+-This project is a demonstration of my front-end development skills, creating an example website for a Visual Artist Portifolio. The main goal was to showcase interactive divs, and responsive design using only HTML, CSS, and JavaScript. This project was built to provide an overview of my work, including coding and design skills. The site is user-friendly, intuitive, and has a pleasant and clean interface. I would like to thank you for visiting this project and hope it provides a good understanding of my front-end development skills.
 
 ## 🚀 Starting
 
@@ -57,23 +57,27 @@ It's important to remember that each hosting provider may have its own specific 
 
 ## ✒️ Authors
 
-* **Ar Shakir** - *UI Designer* - [@arshakirpk](https://www.instagram.com/arshakirpk/)
+* **Slider Revolution** - *Content Creator* - [@sliderrevolution](https://www.instagram.com/sliderrevolution/)
 * **Pedro Rogério** - *Front-end Developer* - [Pedro-Rogerio](https://github.com/Pedro-Rogerio)
 * **Pedro Cisdelli** - *Colaborador* - [sprmbng](https://github.com/sprmbng)
 
 ## 📄 License
 
-This project is under license (MIT) - see the [LICENSE.md](https://github.com/Pedro-Rogerio/projectBakery/blob/main/LICENSE.MD) file for details.
+This project is under license (MIT) - see the [LICENSE.md](https://github.com/Pedro-Rogerio/project_artPortifolio/blob/main/LICENSE.MD) file for details.
 
 ## 🎁 Expressions of Gratitude
 
-**To Ar Shakir**
+**Slider Revolutionr**
 
-* I wanted to take a moment to express my gratitude for the amazing UI design example you shared on the internet. As a student of computer science from Brazil, I recently used your design as a basis for creating a web page to further develop my programming skills, and I couldn't have done it without your example.
+*I would like to express my sincerest gratitude for posting the graphic design portfolio image that served as a tremendous inspiration in creating a web page. Discovering this image on Slider Revolution was a delightful experience, as it showcased an extraordinary level of aesthetic quality, creativity, and originality. Analyzing it allowed me to extract countless ideas and concepts that undeniably enriched my artistic vision and added a unique touch to my work.
 
-* Your attention to detail and eye for design are truly impressive, and I learned so much from working with your design. It was a pleasure to translate your beautiful image into a functional web page, and I am very proud of the result.
+*This indirect collaboration between our projects exemplifies the powerful creative connection that the internet and sharing platforms offer. Through the online community, we find inspiration and encouragement for our own creations, fostering mutual growth in our endeavors.
 
-* Once again, thank you for sharing your talents and expertise with the world. Your generosity and kindness are greatly appreciated, and I hope to continue learning from your examples in the future.
+*I want to emphasize the significance of Slider Revolution's role in disseminating relevant and high-quality content for the designer and developer community. Your dedication to sharing valuable resources is vital to the advancement of the industry and the constant evolution of our projects.
+
+*Once again, thank you for providing this enriching experience. I firmly believe that creativity thrives when we learn from each other, and in this regard, you have played a crucial part in my development as a graphic designer and web developer.
+
+*I hope this message of gratitude reaches the entire Slider Revolution team and conveys the immense appreciation I feel. I will continue to follow your work with admiration and am always available to contribute and share my own creative journey.
 
 **To Pedro Cisdelli**
 
